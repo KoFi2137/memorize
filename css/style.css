@@ -1,20 +1,27 @@
 h1 {
   text-align: center;
-  color: red;
+  color: #eee126;
+}
+
+.visableContainer {
+  display: none;
 }
 
 .imageContainer {
-  border: 1px solid red;
-  margin: 0 100px 0 100px;
+  border: 5px solid black;
+  margin-top: 100px;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-align: center;
-      align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 450px;
+}
+
+#container, div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .picture {
@@ -27,7 +34,35 @@ h1 {
   background-image: url("../images/pytanie.jpg") !important;
 }
 
+.noclick {
+  pointer-events: none;
+}
+
 .invisible {
   background: white !important;
+}
+
+.Visable {
+  display: block;
+}
+
+.ButtonNewGame {
+  display: none;
+}
+
+.buttonstyle {
+  border: 5px solid black;
+  background: rgba(138, 138, 138, 0);
+  height: 100px;
+  width: 300px;
+  margin-top: 200px;
+  margin-left: 620px;
+}
+
+.pornphoto {
+  background-image: url("../images/pornofota.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 /*# sourceMappingURL=style.css.map */

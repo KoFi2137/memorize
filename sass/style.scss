@@ -1,15 +1,20 @@
 h1 {
     text-align: center; 
-    color: red; 
+    color: rgb(238, 225, 38); 
+}
+.visableContainer{
+    display: none;
 }
 .imageContainer {
-    border: 1px solid red;
-    margin: 0 100px 0 100px;
+    border: 5px solid black;
+    margin-top: 100px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
     width:450px;
+}
+#container,div{
+    display: flex;
+    justify-content: center;
 }
 .picture {
     height: 100px;
@@ -19,6 +24,29 @@ h1 {
 .pytanie {
     background-image: url("../images/pytanie.jpg") !important;
 }
+.noclick {
+    pointer-events: none;
+}
 .invisible{
     background: white !important;
+}
+.Visable{
+    display: block;
+}
+.ButtonNewGame{
+    display: none;
+}
+.buttonstyle {
+    border: 5px solid rgb(0, 0, 0);
+    background: rgba(138, 138, 138, 0);
+    height: 100px;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 620px;
+}
+.pornphoto {
+    background-image:url("../images/pornofota.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
